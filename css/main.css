@@ -1,0 +1,93 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    max-width: 1500px;
+    margin: 0 auto;
+    animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
+}
+
+    /* page load fade in animation */
+    @keyframes fadeInAnimation { 
+        0% { 
+            opacity: 0; 
+        } 
+        100% { 
+            opacity: 1; 
+        } 
+    } 
+
+nav {
+    /* background-color: #263a6e; */
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+h2:nth-of-type(odd),
+h3 span,
+h6 {
+    color: #bbc4d8;
+}
+
+h6 {
+    padding-left: 39px;
+}
+
+.evens h2,
+.evens h3 span {
+    color: #f8f9fa;
+}
+
+.evens {
+    background-color: #bbc4d8;
+    padding-bottom: 2.5rem;
+}
+
+.jumbotron {
+    background:linear-gradient(0deg, rgba(3, 63, 144, 0.5), rgba(3, 63, 144, 0.5)), url(../img/jumbotron.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.jumbotron div {
+    padding-left: 39px;
+}
+
+#work p,
+#work h3,
+h4,
+ul li {
+    color: #343a40;
+}
+
+#work img,
+.social-link {
+    opacity: .8;
+    transition: all .3s ease;
+}
+
+#work img:hover,
+.social-link:hover {
+    opacity: 1;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+@media (max-width: 767px) {
+    #about img {
+        height: 250px;
+        width: 250px;
+    }
+}
+
+/* @media (min-width: 768px) {
+    .jumbotron {
+        height: 450px;
+    }
+} */
