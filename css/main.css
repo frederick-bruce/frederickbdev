@@ -48,7 +48,7 @@ h6 {
 }
 
 .jumbotron {
-    background:linear-gradient(0deg, rgba(3, 63, 144, 0.5), rgba(3, 63, 144, 0.5)), url(../img/jumbotron.png);
+    background:linear-gradient(0deg, rgba(3, 63, 144, 0.5), rgba(3, 63, 144, 0.5)), url(../img/jumbotron.jpg);
     background-size: cover;
     height: 100vh;
 }
