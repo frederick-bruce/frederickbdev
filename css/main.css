@@ -43,18 +43,28 @@ h6 {
 }
 
 .evens {
-    background-color: #bbc4d8;
-    padding-bottom: 2.5rem;
+ background-color: rgba(103, 122, 148, 0.445);
+ padding-bottom: 2.5rem;
 }
+
+.odds {
+ background-color: rgba(21, 58, 110, 0.445);
+ padding-bottom: 2.5rem;
+}
+
 
 .jumbotron {
     background:linear-gradient(0deg, rgba(3, 63, 144, 0.5), rgba(3, 63, 144, 0.5)), url(../img/jumbotron.jpg);
     background-size: cover;
     height: 100vh;
+   
+    
 }
 
 .jumbotron div {
     padding-left: 39px;
+    padding-bottom: 2.5rem;
+    
 }
 
 #work p,
