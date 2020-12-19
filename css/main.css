@@ -9,6 +9,7 @@ body {
     animation: fadeInAnimation ease 3s; 
     animation-iteration-count: 1; 
     animation-fill-mode: forwards;
+    
 }
 
     /* page load fade in animation */
@@ -25,6 +26,7 @@ nav {
     /* background-color: #263a6e; */
     max-width: 1500px;
     margin: 0 auto;
+
 }
 
 h2:nth-of-type(odd),
@@ -96,8 +98,9 @@ ul li {
     }
 }
 
-/* @media (min-width: 768px) {
+
+ @media (min-width: 768px) {
     .jumbotron {
-        height: 450px;
+        height: 750px;
     }
-} */
+} 
